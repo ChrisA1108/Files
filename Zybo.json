@@ -1,0 +1,163 @@
+{
+  "bomFormat": "CycloneDX",
+  "specVersion": "1.4",
+  "serialNumber": "urn:uuid:e8c355aa-2142-4084-a8c7-6d42c8695dce\n",
+  "version": 1,
+  "metadata": {
+    "timestamp": "2023-09-18T12:00:00Z",
+    "component": {
+      "type": "device",
+      "bom-ref": "digilent-zybo",
+      "group": "None",
+      "name": "digilent-zybo",
+      "version": "rev-1"
+    }
+  },
+  "components": [
+    {
+      "type": "device",
+      "bom-ref": "XC7Z010-1CLG225I",
+      "name": "XC7Z010-1CLG225I",
+      "supplier": {
+        "name": "Xilinx",
+        "url": [
+          "https://www.xilinx.com/"
+        ]
+      },
+      "version": "B",
+      "description": "Zynq SoC",
+      "externalReferences": [
+        {
+          "type": "documentation",
+          "url": "https://www.mouser.com/datasheet/2/903/ds190_Zynq_7000_Overview-1595492.pdf"
+        }
+      ],
+      "properties": [
+        {
+          "name": "cdx:device:quantity",
+          "value": "1"
+        },
+        {
+          "name": "cdx:device:function",
+          "value": "microprocessor"
+        },
+        {
+          "name": "cdx:device:location",
+          "value": "mainboard"
+        },
+        {
+          "name": "cdx:device:deviceType",
+          "value": "smd"
+        }
+      ]
+    },
+    {
+      "type": "device",
+      "bom-ref": "FL128SAIF00",
+      "supplier": {
+        "name": "Infineon",
+        "url": [
+          "https://www.infineon.com/"
+        ]
+      },
+      "name": "FL128SAIF00",
+      "description": "SPI Flash",
+      "externalReferences": [
+        {
+          "type": "documentation",
+          "url": "https://www.infineon.com/dgdl/Infineon-S25FL128S_S25FL256S_128_Mb_(16_MB)_256_Mb_(32_MB)_3.0V_SPI_Flash_Memory-DataSheet-v18_00-EN.pdf?fileId=8ac78c8c7d0d8da4017d0ecfb6a64a17"
+        }
+      ],
+      "properties": [
+        {
+          "name": "cdx:device:quantity",
+          "value": "1"
+        },
+        {
+          "name": "cdx:device:function",
+          "value": "storage"
+        },
+        {
+          "name": "cdx:device:location",
+          "value": "mainboard"
+        },
+        {
+          "name": "cdx:device:deviceType",
+          "value": "smd"
+        }
+      ]
+    },
+    {
+      "type": "device",
+      "bom-ref": "MICRON-MT41K128M8",
+      "supplier": {
+        "name": "Micron",
+        "url": [
+          "https://www.micron.com/"
+        ]
+      },
+      "name": "MT41K128M8",
+      "description": "256MB DDR3L SDRAM",
+      "externalReferences": [
+        {
+          "type": "documentation",
+          "url": "https://media-www.micron.com/-/media/client/global/documents/products/data-sheet/dram/ddr3/1gb_1_35v_ddr3l.pdf?rev=b0a11959734f4d848f562e51c4cecd54"
+        }
+      ],
+      "properties": [
+        {
+          "name": "cdx:device:quantity",
+          "value": "2"
+        },
+        {
+          "name": "cdx:device:function",
+          "value": "storage"
+        },
+        {
+          "name": "cdx:device:location",
+          "value": "mainboard"
+        },
+        {
+          "name": "cdx:device:deviceType",
+          "value": "smd"
+        }
+      ]
+    },
+    {
+      "type": "device",
+      "bom-ref": "FTDI-FT2232HQ",
+      "supplier": {
+        "name": "FTDI Chip",
+        "url": [
+          "https://www.ftdichip.com/"
+        ]
+      },
+      "name": "FT2232HQ",
+      "description": "USB Hi-Speed to Dual Channel Serial UART/FIFO/JTAG/SPI/I2C IC, QFN-64",
+      "externalReferences": [
+        {
+          "type": "documentation",
+          "url": "https://ftdichip.com/wp-content/uploads/2020/07/DS_FT2232H.pdf"
+        }
+      ],
+      "properties": [
+        {
+          "name": "cdx:device:quantity",
+          "value": "1"
+        },
+        {
+          "name": "cdx:device:function",
+          "value": "microprocessor"
+        },
+        {
+          "name": "cdx:device:location",
+          "value": "mainboard"
+        },
+        {
+          "name": "cdx:device:deviceType",
+          "value": "smd"
+        }
+      ]
+    }
+  ]
+}
