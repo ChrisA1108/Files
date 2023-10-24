@@ -1,0 +1,271 @@
+{
+  "bomFormat": "CycloneDX",
+  "specVersion": "1.4",
+  "serialNumber": "urn:uuid:e8c355aa-2142-4084-a8c7-cafedeadbeef",
+  "version": 1,
+  "metadata": {
+    "timestamp": "2022-01-09T12:00:00Z",
+    "component": {
+      "type": "device",
+      "bom-ref": "fictional-vulnerable-ecu",
+      "group": "jb.pst.pcg.tmna",
+      "name": "fictional-vulnerable-ecu",
+      "version": "rev-1"
+    }
+  },
+  "components": [
+    {
+      "type": "device",
+      "bom-ref": "RX65N-MCU",
+      "supplier": {
+        "name": "Renesas",
+        "url": [
+          "https://www.renesas.com/"
+        ]
+      },
+      "name": "RX65N-MCU",
+      "version": "1.0.1",
+      "description": "Renesas RX65N MCU",
+      "externalReferences": [
+        {
+          "type": "documentation",
+          "url": "https://www.mouser.com/datasheet/2/698/r01ds0276ej0210-rx651-1528434.pdf"
+        }
+      ],
+      "properties": [
+        {
+          "name": "cdx:device:quantity",
+          "value": "1"
+        },
+        {
+          "name": "cdx:device:function",
+          "value": "microprocessor"
+        },
+        {
+          "name": "cdx:device:location",
+          "value": "mainboard"
+        },
+        {
+          "name": "cdx:device:deviceType",
+          "value": "smd"
+        }
+      ]
+    },
+    {
+      "type": "device",
+      "bom-ref": "CC256x-BT-Module",
+      "supplier": {
+        "name": "TI",
+        "url": [
+          "https://www.ti.com/"
+        ]
+      },
+      "name": "CC256x-BT-Module",
+      "description": "CC256x Dual-Mode Bluetooth® Controller",
+      "externalReferences": [
+        {
+          "type": "documentation",
+          "url": "https://www.ti.com/lit/ds/symlink/cc2564.pdf"
+        }
+      ],
+      "properties": [
+        {
+          "name": "cdx:device:quantity",
+          "value": "1"
+        },
+        {
+          "name": "cdx:device:function",
+          "value": "bluetooth"
+        },
+        {
+          "name": "cdx:device:location",
+          "value": "mainboard"
+        },
+        {
+          "name": "cdx:device:deviceType",
+          "value": "smd"
+        }
+      ]
+    },
+    {
+      "type": "device",
+      "bom-ref": "SJA1000-CAN-NXP",
+      "supplier": {
+        "name": "NXP",
+        "url": [
+          "https://www.nxp.com/"
+        ]
+      },
+      "name": "SJA1000-CAN-NXP",
+      "description": "NXP Stand-alone CAN controller",
+      "externalReferences": [
+        {
+          "type": "documentation",
+          "url": "https://www.nxp.com/docs/en/data-sheet/SJA1000.pdf"
+        }
+      ],
+      "properties": [
+        {
+          "name": "cdx:device:quantity",
+          "value": "1"
+        },
+        {
+          "name": "cdx:device:function",
+          "value": "network"
+        },
+        {
+          "name": "cdx:device:location",
+          "value": "mainboard"
+        },
+        {
+          "name": "cdx:device:deviceType",
+          "value": "thru-hole"
+        }
+      ]
+    },
+    {
+      "type": "device",
+      "bom-ref": "ZYNQ-7010-SOC",
+      "supplier": {
+        "name": "Xilinx",
+        "url": [
+          "https://www.xilinx.com/"
+        ]
+      },
+      "name": "ZYNQ-7010-SOC",
+      "description": "Zynq-7000 SoC",
+      "externalReferences": [
+        {
+          "type": "documentation",
+          "url": "https://www.mouser.com/datasheet/2/903/ds190-Zynq-7000-Overview-1595492.pdf"
+        }
+      ],
+      "properties": [
+        {
+          "name": "cdx:device:quantity",
+          "value": "1"
+        },
+        {
+          "name": "cdx:device:function",
+          "value": "fpga"
+        },
+        {
+          "name": "cdx:device:location",
+          "value": "mainboard"
+        },
+        {
+          "name": "cdx:device:deviceType",
+          "value": "smd"
+        }
+      ]
+    },
+    {
+      "type": "device",
+      "bom-ref": "MICRON-DRAM",
+      "supplier": {
+        "name": "Micron",
+        "url": [
+          "https://www.micron.com/"
+        ]
+      },
+      "name": "MT40A256M16LY",
+      "description": "DDR4 SDRAM",
+      "externalReferences": [
+        {
+          "type": "documentation",
+          "url": "https://media-www.micron.com/-/media/client/global/documents/products/data-sheet/dram/ddr4/4gb_ddr4_dram.pdf"
+        }
+      ],
+      "properties": [
+        {
+          "name": "cdx:device:quantity",
+          "value": "1"
+        },
+        {
+          "name": "cdx:device:function",
+          "value": "storage"
+        },
+        {
+          "name": "cdx:device:location",
+          "value": "mainboard"
+        },
+        {
+          "name": "cdx:device:deviceType",
+          "value": "smd"
+        }
+      ]
+    },
+    {
+      "type": "device",
+      "bom-ref": "STM-TPM",
+      "supplier": {
+        "name": "ST Microelectronics",
+        "url": [
+          "https://www.st.com/"
+        ]
+      },
+      "name": "ST33TPHF2ESPI",
+      "description": "Flash-memory-based device combining TPM 1.2 and TPM 2.0 with an SPIinterface",
+      "properties": [
+        {
+          "name": "cdx:device:quantity",
+          "value": "1"
+        },
+        {
+          "name": "cdx:device:function",
+          "value": "tpm"
+        },
+        {
+          "name": "cdx:device:location",
+          "value": "mainboard"
+        },
+        {
+          "name": "cdx:device:deviceType",
+          "value": "smd"
+        }
+      ],
+      "externalReferences": [
+        {
+          "type": "documentation",
+          "url": "https://www.st.com/resource/en/data_brief/st33tphf2espi.pdf"
+        }
+      ]
+    },
+    {
+      "type": "device",
+      "bom-ref": "WINBOND-FLASH",
+      "supplier": {
+        "name": "Winbond",
+        "url": [
+          "https://www.winbond.com/"
+        ]
+      },
+      "name": "W29N02KVSIAFTR",
+      "description": "W29N02KV (2G-bit) NAND Flash memory",
+      "properties": [
+        {
+          "name": "cdx:device:quantity",
+          "value": "1"
+        },
+        {
+          "name": "cdx:device:function",
+          "value": "storage"
+        },
+        {
+          "name": "cdx:device:location",
+          "value": "mainboard"
+        },
+        {
+          "name": "cdx:device:deviceType",
+          "value": "thru-hole"
+        }
+      ],
+      "externalReferences": [
+        {
+          "type": "documentation",
+          "url": "https://www.mouser.com/datasheet/2/949/w29n02kvxxaf_reva-1608309.pdf"
+        }
+      ]
+    }
+  ]
+}
